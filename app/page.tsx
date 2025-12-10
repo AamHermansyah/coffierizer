@@ -143,9 +143,9 @@ export default function CoffeeSortingPage() {
           {/* Input Hopper & Queue List */}
           <div className="relative rounded-2xl border border-slate-800 bg-linear-to-b from-slate-950 via-slate-900/90 to-black p-6 flex flex-col gap-5 shadow-[0_18px_50px_rgba(15,23,42,0.9)]">
             {/* TOP STRIP */}
-            <div className="flex items-center justify-between gap-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="flex flex-col gap-1">
-                <div className="inline-flex items-center gap-2">
+                <div className="inline-flex flex-col sm:flex-row sm:items-center gap-2">
                   <div className="h-7 px-3 rounded-full bg-slate-950/90 border border-slate-700/70 flex items-center gap-2">
                     <span className="text-[11px] font-mono tracking-[0.18em] text-slate-300 uppercase">
                       Input Hopper
